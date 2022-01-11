@@ -28,3 +28,125 @@
     display: inline-block;
     border-radius: 50%;
 }
+
+.external-eye {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position:absolute;
+    top: 20px;
+    left: 25px;
+    background-color: #00AEEF;
+    border: 3px solid #000;
+}
+
+.internal-eye {
+width: 30px;
+height: 30px;
+background-color: #000;
+border-radius: 50%;
+position:relative;
+top:10px;
+left: 10px;
+}
+
+.tabs {
+  position: relative;
+  bottom: 28px;
+  left: 12px;  
+}
+
+.tab {
+    width: 15px;
+    height: 5px;
+    background-color: #000;
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-right: 10px;
+}
+
+.tab.first {
+    position: relative;
+    top: 10px;
+       -moz-transform: rotate(45deg);
+    -webkit-transition: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.tab.third {
+    position: relative;
+    top: 10px;
+    -moz-transform: rotate(-45deg);
+    -webkit-transition: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+/*nose*/
+
+.nose {
+    width: 20px;
+    height: 40px;
+    background-color: #f5EE31;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+    border: 5px solid #000;
+    z-index: 10;
+    border-bottom: 5px solid transparent;
+    border-radius: 45.5%;
+}
+
+/*Mouth*/
+
+
+.mouth {
+    width: 200px;
+    height: 80px;
+    background-color: transparent;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    border-radius: 50%;
+    z-index: 10px;
+    border-bottom: 5px solid #000;
+}
+
+.teeth {
+    position: relative;
+    top:80px;
+    left:65px;
+}
+
+.tooth {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 5px solid #000;
+    display: inline-block;
+}
+
+.cheek {
+    width: 30px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+    top: 30px;
+    border: 3px solid #F1592A;
+    border-bottom: 3px solid transparent;
+    border-radius: 50% 50% 20% 20%;
+}
+
+.cheek.first {
+left: -15px;
+}
+
+.cheek.second {
+    left: 175px;
+}
